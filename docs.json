@@ -1,0 +1,103 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "aspen",
+  "name": "Quewrite 사용 가이드",
+  "colors": {
+    "primary": "#A143FF",
+    "light": "#F1EFFE",
+    "dark": "#D4C7FF"
+  },
+  "favicon": {
+    "light": "/images/Quewrite_favicon.png",
+    "dark": "/images/Quewrite_favicon.png"
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "사용방법",
+        "groups": [
+          {
+            "group": "시작하기",
+            "icon": "hand-wave",
+            "pages": [
+              "index",
+              "development"
+            ]
+          },
+          {
+            "group": "선생님 가이드",
+            "pages": [
+              "teacher/create-account",
+              "essentials/navigation"
+            ]
+          },
+          {
+            "group": "학생 가이드",
+            "pages": [
+              "essentials/markdown",
+              "essentials/code",
+              "essentials/images",
+              "essentials/reusable-snippets"
+            ]
+          },
+          {
+            "group": "AI tools",
+            "pages": [
+              "ai-tools/cursor",
+              "ai-tools/claude-code",
+              "ai-tools/windsurf"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "블로그",
+        "groups": [
+          {
+            "group": "API documentation",
+            "pages": [
+              "api-reference/introduction"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": "/images/Quewrite_logo.png",
+  "navbar": {
+    "links": [
+      {
+        "label": "고객센터",
+        "href": "mailto:support@quewrite.ai"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "사용하러 가기",
+      "href": "https://quewrite.app/signin"
+    }
+  },
+  "contextual": {
+    "options": [
+     "copy",
+     "view",
+     "chatgpt",
+     "claude",
+     "perplexity",
+     "mcp",
+     "cursor",
+     "vscode"
+   ]
+  },
+  "footer": {
+    "socials": {
+      "x": "https://x.com/mintlify",
+      "github": "https://github.com/mintlify",
+      "linkedin": "https://linkedin.com/company/mintlify"
+    }
+  },
+  "description": "맞춤형 글쓰기 교육 플랫폼 큐라이트에 오신 것을 환영합니다. 사용 방법을 차근차근 알려드릴게요.",
+  "search": {
+    "prompt": "큐라이트 사용의 궁금한 점을 물어보세요."
+  }
+}
